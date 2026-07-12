@@ -63,7 +63,7 @@ export function KPIGrid() {
             </div>
           </div>
           <div className="text-2xl font-semibold" style={{ color: 'var(--text-primary)' }}>
-            <AnimatedNumber value={c.value} prefix={c.prefix} suffix={c.suffix} />
+            <AnimatedNumber value={c.value} suffix={c.suffix} />
           </div>
         </motion.div>
       ))}
